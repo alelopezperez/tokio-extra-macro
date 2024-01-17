@@ -8,11 +8,18 @@ license = "MIT"
 description = """
 Extra proc macros for Tokio.
 """
+categories = ["asynchronous"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
 proc-macro = true
 
+[features]
+
 [dependencies]
 syn = {version = "2.0.48", features = ["full"]}
 quote = "1.0.35"
+
+[package.metadata.docs.rs]
+all-features = true
