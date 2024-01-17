@@ -2,6 +2,12 @@
 name = "tokio-extra-macros"
 version = "0.1.0"
 edition = "2021"
+authors = ["alelopezperez.dev "]
+repository = "https://github.com/alelopezperez/tokio-extra-macro"
+license = "MIT"
+description = """
+Extra proc macros for Tokio.
+"""
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
